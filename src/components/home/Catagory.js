@@ -16,7 +16,7 @@ const Catagory = ({ tutorial }) => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
             aliquam possimus quas, error esse quos.
           </p>
-          <Link to={`../topic/${id}`}>
+          <Link to={`../topicdetails/${id}`}>
             <button type="button" className="self-start">
               Start Quiz
             </button>

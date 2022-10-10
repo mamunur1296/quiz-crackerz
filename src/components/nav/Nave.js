@@ -28,16 +28,7 @@ const Nave = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link
-                to="/topic"
-                aria-label="Our product"
-                title="Our product"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Topics
-              </Link>
-            </li>
+
             <li>
               <Link
                 to="/blog"
