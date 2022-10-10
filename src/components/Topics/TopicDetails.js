@@ -9,9 +9,9 @@ const TopicDetails = () => {
 
   return (
     <div className="my-20">
-      <section className="py-6 dark:text-black">
-        <div className=" mx-auto flex flex-col items-center justify-center p-4 space-y-8 md:p-10 md:px-24 xl:px-48">
-          <h1 className="text-5xl font-bold leading-none text-center">
+      <section className="dark:bg-gray-800 dark:text-gray-100">
+        <div className="container flex flex-col items-center p-4 mx-auto md:p-8">
+          <h1 className="text-3xl font-bold leading-none text-center sm:text-4xl">
             Quez Of {data.name}
           </h1>
           {questions.map((data, length) => (
