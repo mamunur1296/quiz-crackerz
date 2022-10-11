@@ -9,7 +9,8 @@ const Root = () => {
     <div>
       <TutorialData.Provider value={data}>
         <Nave></Nave>
-        <Outlet></Outlet>R<Footer></Footer>
+        <Outlet></Outlet>
+        <Footer></Footer>
       </TutorialData.Provider>
     </div>
   );

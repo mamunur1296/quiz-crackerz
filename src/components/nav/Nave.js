@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import "./Nave.css";
 
 const Nave = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,14 +20,17 @@ const Nave = () => {
           </a>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <Link
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "activeClassName" : undefined
+                }
                 to="/home"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Home
-              </Link>
+              </NavLink>
             </li>
 
             <li>
@@ -47,17 +51,6 @@ const Nave = () => {
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Statistics
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/about"
-                aria-label="About us"
-                title="About us"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                About us
               </Link>
             </li>
           </ul>
@@ -121,7 +114,7 @@ const Nave = () => {
                         <Link
                           to="/home"
                           aria-label="Our product"
-                          title="Our product"
+                          title="Home"
                           class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
                         >
                           Home
@@ -146,17 +139,6 @@ const Nave = () => {
                           class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
                         >
                           Statistics
-                        </Link>
-                      </li>
-
-                      <li>
-                        <Link
-                          to="/about"
-                          aria-label="About us"
-                          title="About us"
-                          class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
-                        >
-                          About us
                         </Link>
                       </li>
                     </ul>

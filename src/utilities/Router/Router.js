@@ -40,10 +40,6 @@ export const router = createBrowserRouter([
         path: "/statistics",
         element: <Statistic></Statistic>,
       },
-      {
-        path: "/about",
-        element: <About></About>,
-      },
     ],
   },
 ]);

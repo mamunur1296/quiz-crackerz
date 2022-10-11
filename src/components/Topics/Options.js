@@ -9,7 +9,7 @@ const Options = ({ option, length, hendelQurzBtn }) => {
           <button
             rel="noopener noreferrer"
             onClick={() => hendelQurzBtn(option)}
-            className="flex items-center border justify-center p-3 sm:py-4 lg:py-6 sm:w-96 my-4 mx-auto"
+            className="flex items-center border justify-center p-3 sm:py-4 lg:py-6 w-80 my-4 mx-auto"
           >
             {namber} : {option}
           </button>

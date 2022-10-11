@@ -9,9 +9,9 @@ const QuizDetails = ({ data, length }) => {
   let quentaty = length + 1;
   const hendelQurzBtn = (option) => {
     if (data.correctAnswer === option) {
-      toast.success("rite anss", { autoClose: 500 });
+      toast.success("Rite answer", { autoClose: 500 });
     } else {
-      toast.error("rite anss", { autoClose: 500 });
+      toast.error("Rong answer", { autoClose: 500 });
     }
   };
   const HendalVigibal = () => {
