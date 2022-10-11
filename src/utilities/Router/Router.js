@@ -4,7 +4,6 @@ import Blog from "../../components/blog/Blog";
 import Error from "../../components/Error/Error";
 import Home from "../../components/home/Home";
 import Statistic from "../../components/statistick/Statistic";
-import Topic from "../../components/Topics/Topic";
 import TopicDetails from "../../components/Topics/TopicDetails";
 import { loaderData } from "../Loders/Looder";
 import Root from "../root/Root";
