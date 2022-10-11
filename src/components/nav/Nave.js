@@ -20,17 +20,14 @@ const Nave = () => {
           </a>
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? "activeClassName" : undefined
-                }
+              <Link
                 to="/home"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Home
-              </NavLink>
+              </Link>
             </li>
 
             <li>

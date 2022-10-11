@@ -20,7 +20,7 @@ const QuizDetails = ({ data, length }) => {
   return (
     <div>
       <h1 className="text-2xl my-10 font-bold leading-none text-center sm:text-2xl lg:w-4/6 mx-auto">
-        Quiz No {quentaty}
+        Quiz No :- {quentaty}
         {data.question}
       </h1>
       <p
