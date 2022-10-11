@@ -60,16 +60,6 @@ const Nave = () => {
                 About us
               </Link>
             </li>
-            <li>
-              <Link
-                to="/signup"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                Sign up
-              </Link>
-            </li>
           </ul>
           <div class="lg:hidden">
             <button
@@ -105,7 +95,7 @@ const Nave = () => {
                         class="inline-flex items-center"
                       >
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Company
+                          Check your || knowledge
                         </span>
                       </a>
                     </div>
@@ -137,16 +127,7 @@ const Nave = () => {
                           Home
                         </Link>
                       </li>
-                      <li>
-                        <Link
-                          to="/topic"
-                          aria-label="Our product"
-                          title="Our product"
-                          class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
-                        >
-                          Topics
-                        </Link>
-                      </li>
+
                       <li>
                         <Link
                           to="/blog"
@@ -176,16 +157,6 @@ const Nave = () => {
                           class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
                         >
                           About us
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="/signup"
-                          class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Sign up
                         </Link>
                       </li>
                     </ul>
