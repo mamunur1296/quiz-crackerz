@@ -3,10 +3,10 @@ import { toast } from "react-toastify";
 import Options from "./Options";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
+import Swal from "sweetalert2";
 
 const QuizDetails = ({ data, length }) => {
   let quentaty = length + 1;
-  console.log(data);
   const hendelQurzBtn = (option) => {
     if (data.correctAnswer === option) {
       toast.success("rite anss", { autoClose: 500 });
@@ -15,7 +15,7 @@ const QuizDetails = ({ data, length }) => {
     }
   };
   const HendalVigibal = () => {
-    console.log(data.correctAnswer);
+    Swal.fire(data.correctAnswer);
   };
   return (
     <div>
