@@ -9,7 +9,7 @@ const TopicDetails = () => {
 
   return (
     <div>
-      <section className="dark:bg-gray-800 dark:text-gray-200">
+      <section className="bg-gray-800 text-gray-200">
         <div className="container flex flex-col items-center p-4 mx-auto md:p-8">
           <h1 className="text-3xl font-bold leading-none text-center sm:text-4xl">
             Quez Of {data.name}
